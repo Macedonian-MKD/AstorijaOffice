@@ -42,6 +42,10 @@
 /* POD 784px */
 @media (max-width:49em){
 
+    .header{
+        position: relative;
+    }
+
     .text-box .heading-primary{
         font-size: 3.4rem;
     }
@@ -66,7 +70,7 @@
         justify-content: center;
         position:absolute;
         top:0; left:0;
-        transform: translateX(5000px);
+        transform:translateX(5000px);
         transition:all 500ms ease-in;
         width:100%;
         height: 100vh;
@@ -90,7 +94,7 @@
 
     .nav-open .main-nav{
         opacity:100%;
-        transform: translateX(0);
+        transform:translateX(0);
         pointer-events: auto;
         visibility: visible;
     }
@@ -262,11 +266,19 @@
 /* POD 450 px */
 
 
-/* POD 370px */
+/* POD 540px (MOBILE PHONES) */
 @media (max-width:34em){
+    .text-box{
+        row-gap: 5rem;
+    }
     .social-networks{
         font-size: 1.8rem;
-        bottom:8%;
+        bottom:15%;
+    }
+    .social-networks ul{
+        gap:2rem;
+        align-items: center;
+        display: flex;
     }
     .social-networks h4{
         font-size: 1.5rem;
@@ -311,6 +323,10 @@
         flex-direction: column;
         gap:2rem;
     }
+
+    .ria-content ul{
+        gap:4rem;
+    }
     .contact{
         width:90%
     }
@@ -333,6 +349,7 @@
     .about-us {
         display: flex;
         flex-direction: column;
+        gap:6rem;
     }
 
     .about .container{
