@@ -315,7 +315,9 @@
         width:90%
     }
 
-    
+    .section-contact .container{
+        padding:0;
+    }
   .about-us p{
         padding:2rem;
         display: flex;
@@ -334,7 +336,7 @@
     }
 
     .about .container{
-        width: 70%;
+        width: 80%;
         margin:0 auto;
     }
 
